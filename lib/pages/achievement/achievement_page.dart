@@ -3,6 +3,7 @@ import 'package:dzikr_tasbih/widgets/cards/glass_card.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../providers/tasbih_provider.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class AchievementPage extends StatelessWidget {
   const AchievementPage({
@@ -21,29 +22,39 @@ class AchievementPage extends StatelessWidget {
 
     final achievements = [
       {
-        "title": "Pemula Dzikir",
+        "title": "Langkah Awal Kebaikan",
         "target": 100,
         "icon": Icons.auto_awesome,
       },
       {
         "title": "Istiqomah",
         "target": 500,
-        "icon": Icons.local_fire_department,
+        "icon": Icons.volunteer_activism,
       },
       {
-        "title": "Ahli Dzikir",
+        "title": "Penyejuk Hati",
         "target": 1000,
-        "icon": Icons.workspace_premium,
+        "icon": Icons.favorite,
       },
       {
-        "title": "Cahaya Hati",
+        "title": "Cahaya Istiqomah",
         "target": 3000,
         "icon": Icons.light_mode,
       },
       {
-        "title": "Tasbih Master",
+        "title": "Mutiara Istiqomah",
         "target": 5000,
         "icon": Icons.star_rounded,
+      },
+      {
+        "title": "Mahkota Istiqomah",
+        "target": 7000,
+        "icon": FontAwesomeIcons.solidChessQueen,
+      },
+      {
+        "title": "Puncak Istiqomah",
+        "target": 10000,
+        "icon": FontAwesomeIcons.crown,
       },
     ];
 

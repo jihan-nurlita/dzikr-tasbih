@@ -373,7 +373,7 @@ class _DzikirModalSheetState extends State<DzikirModalSheet> {
                 style: OutlinedButton.styleFrom(
                   foregroundColor: widget.theme.accentColor,
                   side: BorderSide(color: widget.theme.accentColor),
-                  padding: const EdgeInsets.symmetric(vertical: 15),
+                  padding: const EdgeInsets.symmetric(vertical: 20),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16),
                   ),
